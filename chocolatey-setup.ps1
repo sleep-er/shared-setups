@@ -2,37 +2,36 @@
 
 "Installing Chocolatey..."
 iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
-SET PATH=%PATH%;%systemdrive%\chocolatey\bin
 "Installing Chocolatey - Done..."
 
-cinst 7zip
-cinst notepadplusplus
-cinst Firefox
-cinst filezilla
-cinst FoxitReader
-cinst gimp
-cinst truecrypt
-cinst putty
-cinst virtualbox
-cinst vlc
-cinst dropbox
-cinst SkyDrive 
-cinst launchy
-cinst Calibre
-cinst pidgin 
-cinst defraggler 
-cinst imgburn 
+choco install 7zip
+choco install notepadplusplus
+choco install Firefox
+choco install filezilla
+choco install FoxitReader
+choco install install gimp
+choco install truecrypt
+choco install putty
+choco install virtualbox
+choco install vlc
+choco install dropbox
+choco install SkyDrive 
+choco install launchy
+choco install Calibre
+choco install pidgin 
+choco install defraggler 
+choco install imgburn 
 
-cinst steam 
-cinst minecraft 
-cinst gfwlive 
-cinst Teamspeak3 
-cinst wassapp 
-cinst viber 
+choco install steam 
+choco install minecraft 
+choco install gfwlive 
+choco install Teamspeak3 
+choco install wassapp 
+choco install viber 
 
-cinst fiddler
-cinst sublimetext2
-cinst vagrant
-cinst SourceCodePro 
+choco install fiddler
+choco install sublimetext2
+choco install vagrant
+choco install SourceCodePro 
 
 
